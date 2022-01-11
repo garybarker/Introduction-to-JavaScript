@@ -91,7 +91,7 @@ Do the following:
 function dogYears(age){
   return age * 7;
 }
-
+dogYears(11);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
