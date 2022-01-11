@@ -207,7 +207,7 @@ Using the miles function below do the following:
 
 function miles(kilometers){
   /*add your code here*/
-  return kilometers * 0.62137119223;
+  return kilometers * 0.621371;
 }
 
 
