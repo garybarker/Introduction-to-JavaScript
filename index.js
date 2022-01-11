@@ -169,7 +169,7 @@ HINT: Remember that the order in which we pass in our arguments matters when it 
 let computer = Math.random();
 if(computer <= 0.33){
   computer = "rock";
-}else if(computer <=0.67){
+}else if(computer > 0.33 && computer <=0.67){
   computer = "paper";
 }else{
   computer = "scissors";
