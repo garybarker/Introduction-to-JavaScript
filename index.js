@@ -19,7 +19,10 @@ Do the following:
 
    HINT: no function required
 */
-
+const votingAge = 18;
+if(votingAge >= 18){
+  console.log(true);
+}
 
 
 /*
@@ -33,6 +36,13 @@ Do the following:
    HINT: no function required
 */
 
+let var1 = 1;
+const var2 = 10;
+
+if( var2 === 10){
+  var1 = var2;
+}
+console.log(var1);
 
 
 
@@ -47,7 +57,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+let year = "1999";
+console.log(parseInt(year));
 
 
 
@@ -77,8 +88,8 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+  return age * 7;
 }
 
 
