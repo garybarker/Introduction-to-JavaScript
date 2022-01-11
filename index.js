@@ -179,7 +179,7 @@ if(computer <= 0.33){
 function game(user, computer){
   /*add your code here*/
   if (user === computer){
-    return "It's a tie";
+    return "it's a tie";
   }else if(user === "rock" && computer === "scissors"){
       return "you win!";
     }else if (user === "scissors" && computer === "paper") {
@@ -191,7 +191,7 @@ function game(user, computer){
     }
   }
 
-console.log(game("rock", computer))
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -205,8 +205,9 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
+function miles(kilometers){
   /*add your code here*/
+  return kilometers * 0.62137119223;
 }
 
 
